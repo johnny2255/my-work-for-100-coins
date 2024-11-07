@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    padding: 20px 0;
+    
+   
+}
+ul{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.left img{
+    width: 243px;
+}
+.right h1{
+font-size: 44px;
+width: 506px;
+}
+.right p{
+    font-size: 16px;
+    width: 497px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: #FF6464;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+.row{
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+padding-bottom: 50px;
+}
+.right_2{
+    background-color: white;
+  padding: 20px;
+}
+.hero_2{
+    background-color: #EDF7FA;
+}
+.te{
+    font-size: 16px;
+    width: 368px;
+}
+.left_2{
+  
+    
+    background-color: white;
+    padding: 20px;
+}
+.row_2{
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+    justify-content: center;
+}
+.tex{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.right_3{
+  padding-top: 20px;
+  
+}
+.img{
+    display: flex;
+}
+.rw{
+ display: flex; 
+ border-bottom:  2px solid #E0E0E0;
+padding: 30px;
+gap: 50px;
+}
+.rt{
+    background-color: #142850;
+    border-radius: 5px ;
+    text-align: center;
+    margin-right: 550px;
+    color: white;
+    margin-top: 10px;
+    
+}
+.qw{
+    font-size: 16px;
+    width: 594px;
+    padding: 32px 0;
+}
+.row_3{
+    margin-top: 20px;
+
+}
+.t{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.t p{
+    color: #00A8CC;
+}
+.fonts img{
+    
+
+
+}
+.ota{
+    
+    padding-top: 134px;
+    padding-left: 650px;
+    padding-bottom: 60px;
+}
+
+.o{
+ margin-right: 20px;
+ margin-left: 20px;
+}
+.g{
+    margin-right: 20px;
+}
+.fonts{
+    margin-bottom: 30px ;
+}
+
+@media screen and (min-width:400px) and (max-width:700px) {
+    .burger {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .burgerLine {
+        width: 30px;
+        height: 3px;
+        background-color: black;
+      }
+      ul {
+        display: none;
+      }
+}
